@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-content: center;
+    text-align: center;
+    padding-top: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#4E8098;
+    padding-top: 140px;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+main {
+    background-color:#CED0CE;
+    border: black solid medium;
+}
+
+h1 {
+    padding-bottom: 40px;
+
+}
+
+h2 {
+    padding: 10px;
+}
+
+#dice {
+    padding-bottom: 60px;
+}
+
+#scoreCard {
+    padding-bottom: 40px;
+}
+
+#buttons {
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+#roll {
+    width: 60px;
+    height: 40px;
+    margin-right: 10px;
+    background-color: #e7e6e6;
+    border-style: dashed;
+}
+
+#hold {
+    width: 60px;
+    height: 40px;
+    margin-left: 10px;
+    background-color: #e7e6e6;
+    border-style: dashed;
+}
+
+#reset {
+    width: 60px;
+    height: 40px;
+    margin-left: 10px;
+    background-color: #e7e6e6;
+    border-style: dashed;
+}

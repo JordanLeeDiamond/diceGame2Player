@@ -1,10 +1,10 @@
 const rules = document.getElementById("rules");
 const d1 = document.getElementById("d1");
-const p1Select = document.getElementById("left");
+const p1Select = document.getElementById("top");
 const player1 = document.getElementById("player1");
 const holdScore = document.getElementById("holdScore");
 const score = document.getElementById("score");
-const p2Select = document.getElementById("right");
+const p2Select = document.getElementById("bottom");
 const player2 = document.getElementById("player2");
 const holdScore2 = document.getElementById("holdScore2");
 const score2 = document.getElementById("score2");
@@ -16,11 +16,7 @@ let activePlayer = 0;
 
 const playerChange = (activePlayer) => {
     if (activePlayer === 1) {
-        // p1Select.style.backgroundColor = "grey";
-        // p2Select.style.backgroundColor = "white";
     } else if (activePlayer === 2) {
-        // p1Select.style.backgroundColor = "white";
-        // p2Select.style.backgroundColor = "grey";
     }
 }
 
@@ -81,6 +77,4 @@ reset.addEventListener("click", () => {
     holdScore2.innerHTML = 0;
     score.innerHTML = 0;
     score2.innerHTML = 0;
-    // p1Select.style.backgroundColor = "grey";
-    // p2Select.style.backgroundColor = "white";
 })

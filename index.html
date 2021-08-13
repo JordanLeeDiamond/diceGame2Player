@@ -7,16 +7,17 @@
     <title>2 Player Dice Game</title>
 </head>
 <body>
+    <main>
     <h1>Dice Roll Game</h1>
     <h2 id="rules">Score 21 to Win!</h2>
     <img id="d1" src="./images/d1.png" alt="dice">
     <div id="scoreCard">
-        <div class="scoreCardLeft" id="left">
+        <div class="scoreCardLeft" id="top">
             <h2 id="player1">Player 1</h2>
             <p id="holdScore">HOLD SCORE: 0</p>
                 <p id="score">SCORE: 0</p>
         </div>
-        <div class="scoreCardRight" id="right">
+        <div class="scoreCardRight" id="bottom">
             <h2 id="player2">Player 2</h2>
             <p id="holdScore2">HOLD SCORE: 0</p>
                 <p id="score2">SCORE: 0</p>
@@ -28,6 +29,7 @@
         <button id="hold">Hold</button>
         <button id="reset">Reset</button>
     </div>
+    </main>
     <script src="./index.js"></script>
 </body>
 </html>
